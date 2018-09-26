@@ -1,0 +1,6 @@
+1. Halaman berhasil ditampilkan karena request method GET sudah berisi seluruh parameternya yang diminta oleh program.
+2. Halaman gagal ditampilkan karena request method GET tidak menerima parameter flyHour sementara requirednya true.
+3. Data pilot berhasil ditampilkan karena data pilot dengan licenseNumber 1234 sudah disimpan dalam database
+4. Terjadi error karena ketika program direstart ulang, data yang ada sebelum dimasukkan hilang hilang, sehingga object Pilot menjadi bernilai null
+5. data pilot berhasil dimunculkan 
+6. data seluruh pilot berhasil dimunculkan  
